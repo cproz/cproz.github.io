@@ -5,72 +5,72 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-	<title>정민에게</title>
-  <style>
-	@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+	<title>나의 마법사에게</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-	.font{
-		font-family: 'Nanum Gothic', sans-serif;
-     		 line-height:200%;
-     		 font-size : 13px;
-	}
-
-  </style>
+		body {
+			font-family: 'Nanum Gothic', sans-serif;
+			line-height: 200%;
+			font-size: 13px;
+			text-align: center;
+			color: #E6E6E6;
+		}
+	</style>
 </head>
 
 <body>
 	<div id="waveform">
-	<video  src="https://cproz.github.io/1.mp4"  controls
-    playsinline
-    style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-</div>
-	<p style="text-align: center; color: white;">신세계</p>
-	<br/><br/><br/><br/><br/><br/><br/>
+		<video src="https://cproz.github.io/1.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>신세계</p>
+	<br /><br /><br /><br /><br /><br /><br />
 	<div id="waveform">
-		<video  src="https://cproz.github.io/5.mp4"  controls
-		playsinline
-		style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-	  </div>
-	
-<br/><br/><br/><br/><br/><br/><br/>
+		<video src="https://cproz.github.io/5.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>love letter</p>
+	<br /><br /><br /><br /><br /><br /><br />
 	<div id="waveform">
-		<video  src="https://cproz.github.io/2.mp4"  controls
-		playsinline
-		style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-	  </div>
-	  <br/><br/><br/><br/><br/><br/><br/>
-	  <div id="waveform">
-		  <video  src="https://cproz.github.io/4.mp4"  controls
-		  playsinline
-		  style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-		</div>
-	 <br/><br/><br/><br/><br/><br/><br/>
-	  <div id="waveform">
-		  <video  src="https://cproz.github.io/6.mp4"  controls
-		  playsinline
-		  style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-		</div>	  
-		  <br/><br/><br/><br/><br/><br/><br/>
-	  <div id="waveform">
-		  <video  src="https://cproz.github.io/3.mp4"  controls
-		  playsinline
-		  style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
-		</div>	  
-	  
-	  
-	  <script type="module">
-	  import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
-	  
-	  const ws = WaveSurfer.create({
-		// Pass the video element in the `media` param
-		media: document.querySelector('video'),
+		<video src="https://cproz.github.io/2.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>freeze</p>
+	<br /><br /><br /><br /><br /><br /><br />
+	<div id="waveform">
+		<video src="https://cproz.github.io/4.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>all my days</p>
+	<br /><br /><br /><br /><br /><br /><br />
+	<div id="waveform">
+		<video src="https://cproz.github.io/6.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>A Different Kind of Love</p>
+	<br /><br /><br /><br /><br /><br /><br />
+	<div id="waveform">
+		<video src="https://cproz.github.io/3.mp4" controls playsinline
+			style="width: 100%; max-width: 600px; margin: 0 auto; display: block;" />
+	</div>
+	<p>September</p>
+	<br /><br /><br /><br /><br /><br /><br />
+
+
+	<script type="module">
+		import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
+
+		const ws = WaveSurfer.create({
+			// Pass the video element in the `media` param
+			media: document.querySelector('video'),
 		});
 
-	  
-	  wavesurfer.on('interaction', () => {
-		wavesurfer.play()
-	  })
-	  </script>
+
+		wavesurfer.on('interaction', () => {
+			wavesurfer.play()
+		})
+	</script>
 </body>
 
 </html>
